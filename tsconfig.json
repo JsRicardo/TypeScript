@@ -1,0 +1,10 @@
+{
+  "compilerOptions": { //编译选项
+    "target": "es5",
+    "module": "commonjs", //编译目标的模块化标准
+    "lib": ["es2016"], //源码的运行环境 node环境需要下载@types/node
+    "outDir": "./dist", //指定输出文件目录
+    "strictNullChecks": true,  //更严格的空类型检查
+  },
+  "include": ["./src"] //需要编译的源文件的路径
+}
