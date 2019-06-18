@@ -1,0 +1,2 @@
+# TypeScript
+a typescript practice
