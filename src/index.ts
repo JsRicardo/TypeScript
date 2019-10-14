@@ -1,37 +1,24 @@
-type Pocker = NormalCard[]
-type Color = '♠' | '♥' | '♣' | '♦'
-type NormalCard = {
-  color: Color,
-  Num: number
-}
+import { Pocker, Color, Num } from "./module"
 
 function createPocker(): Pocker {
-  let pocker: Pocker = []
-  for (let i = 1; i <= 13; i++) {
-    pocker.push({
-      Num: i,
-      color: '♠'
-    })
-    pocker.push({
-      Num: i,
-      color: '♣'
-    })
-    pocker.push({
-      Num: i,
-      color: '♥'
-    })
-    pocker.push({
-      Num: i,
-      color: '♦'
-    })
-  }
+  let pocker: Pocker = [],
+    num = Object.values(Num),
+    color = Object.values(Color);
 
+  num.forEach(n => {
+    color.forEach(c => {
+      pocker.push({
+        color: c,
+        num: n
+      })
+    })
+  })
   return pocker;
 }
 
 function printPocker(pocker: Pocker) {
   pocker.forEach(card => {
-    console.log(card.Num + card.color)
+    console.log(card.num + card.color)
   })
 }
 
