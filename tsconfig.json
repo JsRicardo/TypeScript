@@ -6,7 +6,7 @@
     "outDir": "./dist", //指定输出文件目录
     "strictNullChecks": true,  //更严格的空类型检查
     "esModuleInterop": true, // 适用es6的标准和非es6标准导入导出
-    "moduleResolution": "node" // 适用node的方式解析模块
+    "moduleResolution": "node", // 适用node的方式解析模块
   },
   "include": ["./src"] //需要编译的源文件的路径
 }
