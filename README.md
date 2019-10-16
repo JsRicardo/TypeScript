@@ -8,3 +8,7 @@ a typescript practice
 
 - 约束类、对象、函数的标准
 - 接口可以继承
+
+# class
+
+# 泛型 <T>
