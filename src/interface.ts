@@ -4,13 +4,17 @@ interface U {
     sayHello(msg: string): void
 }
 
-interface B extends U {
+interface B extends U  {
     look: string
 }
-
-class User<U> {
+// 实现接口
+class User implements U {
+    sayHello(msg: string): void {
+        throw new Error("Method not implemented.");
+    }
     name: 'ricardo'
     age: 18
+    
 } 
 
 let u: U = {
