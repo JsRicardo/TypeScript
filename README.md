@@ -8,3 +8,9 @@
 3. 安装clean-wepack-plugin
 4. 安装webpack-dev-server 启动服务器
 5. 安装ts-loader 配置
+
+# 开发原则
+- 单一只能原则： 每个类只做跟他相关的一件事
+- 开闭原则： 对扩展开放，对修改关闭
+
+- 数据-界面相分离
