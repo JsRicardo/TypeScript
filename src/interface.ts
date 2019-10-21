@@ -12,8 +12,8 @@ class User implements U {
     sayHello(msg: string): void {
         throw new Error("Method not implemented.");
     }
-    name: 'ricardo'
-    age: 18
+    name: 'ricardo' = "ricardo";
+    age!: 18;
     
 } 
 
