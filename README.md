@@ -1,18 +1,10 @@
-# TypeScript
-a typescript practice
+# 俄罗斯方块
 
-# TS模块化
-- TS中，导入和导出都适用ES6的规则
+> 使用技术：webpack jq ts 面向对象编程
 
-# interface 接口
-
-- 约束类、对象、函数的标准
-- 接口可以继承
-<<<<<<< HEAD
-
-# class
-
-# 泛型 <T>
-=======
-- ```implements```实现接口
->>>>>>> interface
+# 开始项目
+1. 安装webpack 配置webpack
+2. 安装html-webpack-plugin  挂载html文件模板
+3. 安装clean-wepack-plugin
+4. 安装webpack-dev-server 启动服务器
+5. 安装ts-loader 配置
